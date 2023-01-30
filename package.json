@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/form.html -p 4200 --open",
+    "dev": "parcel ./src/catalog.html -p 4200 --open",
     "prebuild": "rm -rf dist/*",
     "build": "parcel build index.html --no-source-maps"
   },

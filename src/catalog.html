@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="arakhimov artemiirakhimov@yandex.ru">
+  <meta name="description" content="Интернет-магазин товаров для дома Мишка">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mishka</title>
+  <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="img/favicon/180x180.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <div class="page-header__container page-header__container--nojs page-header__container--opened page-container">
+      <div class="page_header__row">
+        <a href="" class="page-header__link">
+          <img src="./img/mishka-logo-mobile.png" alt="Логотип Интернет-магазина Мишка - слово Мишка латинскими буквами" class="page-header__logo">
+        </a>
+        <button class="page-header__menu-button page-header__menu-button--open" type="button" aria-label="Открыть мобильное меню"></button>
+      </div>
+      <ul class="page-header__nav-list">
+        <li class="page-header__nav-item">
+          <a href="catalog.html" class="page-header__link">Каталог товаров</a>
+        </li>
+        <li class="page-header__nav-item">
+          <a href="form.html" class="page-header__link">Вязание на заказ</a>
+        </li>
+        <li class="page-header__nav-item">
+          <a href="blank.html" class="page-header__link">Новые поступления</a>
+        </li>
+        <li class="page-header__nav-item">
+          <a href="blank.html" class="page-header__link">Распродажа</a>
+        </li>
+        <li class="page-header__nav-item">
+          <form action="" method="GET" target="_blank" name="search" class="page-header__search-form form-search">
+            <label for="search-field" class="form-search__label">Поиск по сайту</label>
+            <input type="search" name="search-field" class="form-search__field" id="search-field" />
+          </form>
+        </li>
+        <li class="page-header__nav-item">
+          <a href="./blank.html" class="page-header__cart-link">
+            Корзина:
+            <span class="page-header__cart-counter">пока пуста</span>
+          </a>
+        </li>
+      </ul>   
+    </div>  
+  </header>
+
+  <main class="page-main">
+    <!-- Секция Catalog -->
+    <section class="catalog">
+      <h1 class="page-main__title page__title">Каталог товаров</h1>
+
+      <ul class="catalog__list">
+        <li class="catalog__list-item">
+          <article class="catalog__card card">
+            <img src="./img/photo-1-mobile 1.png" alt="Изображение вязанного зайчика голубого цвета с бежевой головой" class="card__image">
+            <div class="card__wrapper">
+              <h2 class="card__title">Зайчик-попрыгайчик</h2>
+              <p class="card__description">Рост 30&nbsp;, вес 200&nbsp;</p>
+              <div class="card__container">
+                <p class="card__price">1200&nbsp;руб.</p>
+                <button type="button" class="card__button-cart" aria-label="Кнопка для отправки товара в корзину"></button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__list-item">
+          <article class="catalog__card card">
+            <img src="./img/photo-2-mobile 1.png" alt="Изображение вязанной корзинки для белья двух цветов кораллового и белого" class="card__image">
+            <div class="card__wrapper">
+              <h2 class="card__title">Корзинка для белья</h2>
+              <p class="card__description">Диаметр 30&nbsp;, высота 10&nbsp;</p>
+              <div class="card__container">
+                <p class="card__price">690&nbsp;руб.</p>
+                <button type="button" class="card__button-cart" aria-label="Кнопка для отправки товара в корзину"></button>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__list-item">
+          <article class="catalog__card card">
+            <img src="./img/photo-3-mobile 1.png" alt="Изображение большой вязанной корзинки, полной игрушек" class="card__image">
+            <div class="card__wrapper">
+              <h2 class="card__title">Большая корзинка для игрушек</h2>
+              <p class="card__description">Диаметр 30&nbsp;, высота 3 0&nbsp;</p>
+              <div class="card__container">
+                <p class="card__price">1200&nbsp;руб.</p>
+                <button type="button" class="card__button-cart" aria-label="Кнопка для отправки товара в корзину"></button>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Секция Видео -->
+    <section class="video">
+      <h2 class="video__title">Процесс производства</h2>
+      <video src="" class="video__unit" poster="./img/video-mobile 1.png" width="260" height="150"></video>
+      <p class="video__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+      <button type="button" class="video__button page__button" aria-label="Нажмите кнопку для создания заказа">Сделать заказ</button>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__container page-container">
+      <ul class="page-footer__link-list">
+        <li class="page-footer__link-list-item">
+          <a href="blank.html" class="page-footer__link page-footer__link--instagram" aria-label="Instagram"></a>
+        </li>
+        <li class="page-footer__link-list-item">
+          <a href="blank.html" class="page-footer__link page-footer__link-facebook-" aria-label="Facebook"></a>
+        </li>
+        <li class="page-footer__link-list-item">
+          <a href="blank.html" class="page-footer__link page-footer__link--twitter" aria-label="Twitter"></a>
+        </li>
+      </ul>
+      <p class="page-footer__study-center">Разработано
+        <a href="https://htmlacademy.ru/" class="page-footer__study-center-link" aria-label="Ссылка на HTMLAcademy">
+          <img src="./img/htmlacademy.svg" alt="Логотип HTMLAcademy" class="page-footer__study-center-logo" width="27" height="35">
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
